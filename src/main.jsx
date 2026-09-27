@@ -28,7 +28,7 @@ const projects = [
   {
     title: 'Personal Growth Tracker',
     type: 'MERN Application',
-    image: '/images/personal-growth.png',
+    image: `${import.meta.env.BASE_URL}images/personal-growth.png`,
     desc: 'A personal productivity and growth platform with authentication, dashboard, profile management, progress tracking and feedback features.',
     tech: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT'],
     link: 'https://sa23515193-hash.github.io/personal-growth-frontend/',
@@ -38,8 +38,8 @@ const projects = [
   {
     title: 'Al-Matiri Fiber Glass',
     type: 'Business Website',
-    image: '/images/fiberglass.png',
-    desc: 'A branded business presence for fiberglass products and services, designed to present products clearly and make customer contact simple.',
+    image: `${import.meta.env.BASE_URL}images/fiberglass.png`,
+    desc: 'A branded business presence for fiberglass poducts and services, designed to present products clearly and make customer contact simple.',
     tech: ['React', 'Responsive UI', 'Business UX', 'WhatsApp'],
     link: '#',
     github: '#'
@@ -48,7 +48,7 @@ const projects = [
   {
     title: 'Car Showroom',
     type: 'Frontend Project',
-    image: '/images/car-showroom.png',
+    image: `${import.meta.env.BASE_URL}images/car-showroom.png`,
     desc: 'A modern automotive showcase concept featuring premium vehicle presentation, responsive layouts and reusable UI components.',
     tech: ['React', 'TypeScript', 'Tailwind', 'React Router'],
     link: '#',
@@ -58,7 +58,7 @@ const projects = [
   {
     title: 'CV & Personal Brand Website',
     type: 'Portfolio',
-    image: '/images/cv-portfolio.png',
+    image: `${import.meta.env.BASE_URL}images/cv-portfolio.png`,
     desc: 'A personal digital identity combining development, design, research interests, professional experience and career goals.',
     tech: ['React', 'Vite', 'CSS', 'Responsive Design'],
     link: '#',
@@ -68,7 +68,7 @@ const projects = [
   {
     title: 'Birthday Experience Website',
     type: 'Creative Web Project',
-    image: '/images/birthday-website.png',
+    image: `${import.meta.env.BASE_URL}images/birthday-website.png`,
     desc: 'An interactive celebration experience with personalized content, animated stages, countdown, gift reveal and responsive design.',
     tech: ['React', 'TypeScript', 'Animations', 'CSS'],
     link: '#',

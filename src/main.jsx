@@ -18,7 +18,7 @@ const projects = [
   {
     title: 'Velour Vongue — E-Commerce Platform',
     type: 'Full Stack',
-    image: '/images/wp.png',
+    image:`${import.meta.env.BASE_URL}images/wp.png`,
     desc: 'A full-stack commerce platform built around product discovery, authentication, cart, orders, inventory and an admin-ready architecture.',
     tech: ['React', 'Node.js', 'Express', 'PostgreSQL', 'Stripe'],
     link: '#',
@@ -107,7 +107,7 @@ function App(){
 
     <main>
       <section id="home" className="hero section"><div className="hero-copy"><div className="eyebrow"><span/> COMPUTER SCIENCE • DEVELOPMENT • AI</div><h1>Turning ideas into <em>digital impact.</em></h1><p className="hero-lead">I’m <strong>Sawaira Ijaz</strong> — a Computer Science student, Full Stack Web Developer, creative problem solver and lifelong learner building meaningful digital experiences.</p><div className="hero-actions"><button className="btn primary" onClick={()=>scrollTo('projects')}>Explore My Work <span>↗</span></button><a className="btn ghost" href="/Sawaira-Ijaz-CV.pdf" download>Download CV ↓</a></div><div className="availability"><span className="pulse"/> Open to freelance projects • remote opportunities • internships & collaborations</div></div><div className="hero-visual"><div className="orbit orbit-a"/><div className="orbit orbit-b"/><div className="profile-card"><div className="profile-avatar">
-  <img src="/images/profile.jpeg" alt="Sawaira Ijaz" />
+  <img src={`${import.meta.env.BASE_URL}images/profile.png`} alt="Sawaira Ijaz" />
 </div><div className="profile-name">Sawaira Ijaz</div><div className="profile-role">Full Stack Developer</div><div className="mini-line"><span>React</span><span>Node</span><span>AI</span></div></div><div className="float-card f1">✦ MERN Stack</div><div className="float-card f2">◈ Data & AI</div><div className="float-card f3">↗ Creative Mind</div></div></section>
 
       <section id="about" className="section"><div className="section-head"><span>01 / ABOUT</span><h2>A developer with a <em>builder's mindset.</em></h2></div><div className="about-grid"><div className="about-text"><p>I’m a BS Computer Science student at the University of Gujrat with a strong interest in modern web development, artificial intelligence, data and digital business.</p><p>My learning is driven by practical work: personal products, university projects, freelance-style work and continuous experimentation with new technologies. I enjoy taking an idea from a rough concept to a polished, usable experience.</p><p>Alongside technology, I value communication, management, leadership and content writing — skills that help me understand people and projects, not just code.</p><div className="quote">“Learn continuously. Build intentionally. Communicate clearly.”</div></div><div className="stat-grid"><Stat n="3+" t="Years hands-on web development"/><Stat n="BSCS" t="Computer Science"/><Stat n="6+" t="Professional learning experiences"/><Stat n="∞" t="Curiosity to keep learning"/></div></div></section>
